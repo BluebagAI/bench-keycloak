@@ -1,0 +1,29 @@
+{
+ "at": "2026-11-19T23:27:21+00:00",
+ "suite": "keycloak",
+ "repo": "BluebagAI/bench-keycloak",
+ "runner": "blacksmith-4",
+ "shards": "1",
+ "note": "measured",
+ "run": "https://github.com/BluebagAI/bench-keycloak/actions/runs/44634924975",
+ "run_id": 44634924975,
+ "sha": "bf6e41d7a0c8859ebe42ccdc422463a1803c5a4a",
+ "conclusion": "success",
+ "wall_s": 1144,
+ "queue_s": 11,
+ "job_s": 1573,
+ "jobs": 3,
+ "job_max_s": 945,
+ "vcpu_min": 104.9,
+ "billed_min": 28,
+ "usd": 0.224,
+ "tests": {
+  "passed": 988,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 8,
+  "failed_tests": [],
+  "flaky_tests": [],
+  "files": 2
+ }
+}

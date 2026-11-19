@@ -1,0 +1,469 @@
+[
+ {
+  "id": 135950869244,
+  "name": "Build Keycloak (blacksmith-4)",
+  "html_url": "https://github.com/BluebagAI/bench-keycloak/actions/runs/44634924975/job/135950869244",
+  "status": "completed",
+  "conclusion": "success",
+  "created_at": "2026-11-19T23:07:47Z",
+  "started_at": "2026-11-19T23:07:56Z",
+  "completed_at": "2026-11-19T23:11:09Z",
+  "labels": [
+   "blacksmith-4vcpu-ubuntu-2404"
+  ],
+  "runner_name": "blacksmith-4vcpu-ubuntu-2404-oymet3eo62h75jge",
+  "runner_group_name": "blacksmith scale sets - blacksmith-4vcpu-ubuntu-2404",
+  "steps": [
+   {
+    "name": "Set up job",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 1,
+    "started_at": "2026-11-19T23:07:57Z",
+    "completed_at": "2026-11-19T23:07:58Z"
+   },
+   {
+    "name": "Set up runner",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 2,
+    "started_at": "2026-11-19T23:07:58Z",
+    "completed_at": "2026-11-19T23:07:58Z"
+   },
+   {
+    "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 3,
+    "started_at": "2026-11-19T23:07:58Z",
+    "completed_at": "2026-11-19T23:08:02Z"
+   },
+   {
+    "name": "Build Keycloak",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 4,
+    "started_at": "2026-11-19T23:08:02Z",
+    "completed_at": "2026-11-19T23:11:01Z"
+   },
+   {
+    "name": "Prepare archive for upload",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 5,
+    "started_at": "2026-11-19T23:11:01Z",
+    "completed_at": "2026-11-19T23:11:01Z"
+   },
+   {
+    "name": "Upload Keycloak dist",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 6,
+    "started_at": "2026-11-19T23:11:01Z",
+    "completed_at": "2026-11-19T23:11:06Z"
+   },
+   {
+    "name": "Post Build Keycloak",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 10,
+    "started_at": "2026-11-19T23:11:06Z",
+    "completed_at": "2026-11-19T23:11:07Z"
+   },
+   {
+    "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 11,
+    "started_at": "2026-11-19T23:11:07Z",
+    "completed_at": "2026-11-19T23:11:07Z"
+   },
+   {
+    "name": "Complete runner",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 12,
+    "started_at": "2026-11-19T23:11:07Z",
+    "completed_at": "2026-11-19T23:11:07Z"
+   },
+   {
+    "name": "Complete job",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 13,
+    "started_at": "2026-11-19T23:11:07Z",
+    "completed_at": "2026-11-19T23:11:07Z"
+   }
+  ]
+ },
+ {
+  "id": 135952607433,
+  "name": "Admin UI E2E chromium (blacksmith-4)",
+  "html_url": "https://github.com/BluebagAI/bench-keycloak/actions/runs/44634924975/job/135952607433",
+  "status": "completed",
+  "conclusion": "success",
+  "created_at": "2026-11-19T23:11:10Z",
+  "started_at": "2026-11-19T23:11:15Z",
+  "completed_at": "2026-11-19T23:18:30Z",
+  "labels": [
+   "blacksmith-4vcpu-ubuntu-2404"
+  ],
+  "runner_name": "blacksmith-4vcpu-ubuntu-2404-xzcl2iozlv55t7ov",
+  "runner_group_name": "blacksmith scale sets - blacksmith-4vcpu-ubuntu-2404",
+  "steps": [
+   {
+    "name": "Set up job",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 1,
+    "started_at": "2026-11-19T23:11:16Z",
+    "completed_at": "2026-11-19T23:11:18Z"
+   },
+   {
+    "name": "Set up runner",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 2,
+    "started_at": "2026-11-19T23:11:18Z",
+    "completed_at": "2026-11-19T23:11:18Z"
+   },
+   {
+    "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 3,
+    "started_at": "2026-11-19T23:11:18Z",
+    "completed_at": "2026-11-19T23:11:20Z"
+   },
+   {
+    "name": "Run ./.github/actions/pnpm-setup",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 4,
+    "started_at": "2026-11-19T23:11:20Z",
+    "completed_at": "2026-11-19T23:11:28Z"
+   },
+   {
+    "name": "Download Keycloak server",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 5,
+    "started_at": "2026-11-19T23:11:28Z",
+    "completed_at": "2026-11-19T23:11:33Z"
+   },
+   {
+    "name": "Setup Java",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 6,
+    "started_at": "2026-11-19T23:11:33Z",
+    "completed_at": "2026-11-19T23:11:34Z"
+   },
+   {
+    "name": "Start Keycloak server",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 7,
+    "started_at": "2026-11-19T23:11:34Z",
+    "completed_at": "2026-11-19T23:11:35Z"
+   },
+   {
+    "name": "Run ./.github/actions/playwright-setup",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 8,
+    "started_at": "2026-11-19T23:11:35Z",
+    "completed_at": "2026-11-19T23:11:51Z"
+   },
+   {
+    "name": "Wait for Keycloak server to start",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 9,
+    "started_at": "2026-11-19T23:11:51Z",
+    "completed_at": "2026-11-19T23:11:51Z"
+   },
+   {
+    "name": "Build the admin client",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 10,
+    "started_at": "2026-11-19T23:11:51Z",
+    "completed_at": "2026-11-19T23:11:56Z"
+   },
+   {
+    "name": "Run Playwright tests on Boba",
+    "status": "completed",
+    "conclusion": "skipped",
+    "number": 11,
+    "started_at": "2026-11-19T23:11:56Z",
+    "completed_at": "2026-11-19T23:11:56Z"
+   },
+   {
+    "name": "Run Playwright tests",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 12,
+    "started_at": "2026-11-19T23:11:56Z",
+    "completed_at": "2026-11-19T23:18:24Z"
+   },
+   {
+    "name": "Summarize Playwright results",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 13,
+    "started_at": "2026-11-19T23:18:24Z",
+    "completed_at": "2026-11-19T23:18:24Z"
+   },
+   {
+    "name": "Upload Playwright results",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 14,
+    "started_at": "2026-11-19T23:18:24Z",
+    "completed_at": "2026-11-19T23:18:26Z"
+   },
+   {
+    "name": "Upload Playwright report",
+    "status": "completed",
+    "conclusion": "skipped",
+    "number": 15,
+    "started_at": "2026-11-19T23:18:26Z",
+    "completed_at": "2026-11-19T23:18:26Z"
+   },
+   {
+    "name": "Upload server logs",
+    "status": "completed",
+    "conclusion": "skipped",
+    "number": 16,
+    "started_at": "2026-11-19T23:18:26Z",
+    "completed_at": "2026-11-19T23:18:26Z"
+   },
+   {
+    "name": "Post Setup Java",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 29,
+    "started_at": "2026-11-19T23:18:26Z",
+    "completed_at": "2026-11-19T23:18:26Z"
+   },
+   {
+    "name": "Post Run ./.github/actions/pnpm-setup",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 30,
+    "started_at": "2026-11-19T23:18:26Z",
+    "completed_at": "2026-11-19T23:18:26Z"
+   },
+   {
+    "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 31,
+    "started_at": "2026-11-19T23:18:26Z",
+    "completed_at": "2026-11-19T23:18:26Z"
+   },
+   {
+    "name": "Complete runner",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 32,
+    "started_at": "2026-11-19T23:18:26Z",
+    "completed_at": "2026-11-19T23:18:27Z"
+   },
+   {
+    "name": "Complete job",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 33,
+    "started_at": "2026-11-19T23:18:27Z",
+    "completed_at": "2026-11-19T23:18:27Z"
+   }
+  ]
+ },
+ {
+  "id": 135952607636,
+  "name": "Admin UI E2E firefox (blacksmith-4)",
+  "html_url": "https://github.com/BluebagAI/bench-keycloak/actions/runs/44634924975/job/135952607636",
+  "status": "completed",
+  "conclusion": "success",
+  "created_at": "2026-11-19T23:11:10Z",
+  "started_at": "2026-11-19T23:11:15Z",
+  "completed_at": "2026-11-19T23:27:00Z",
+  "labels": [
+   "blacksmith-4vcpu-ubuntu-2404"
+  ],
+  "runner_name": "blacksmith-4vcpu-ubuntu-2404-3innjdf6c6ve4ihg",
+  "runner_group_name": "blacksmith scale sets - blacksmith-4vcpu-ubuntu-2404",
+  "steps": [
+   {
+    "name": "Set up job",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 1,
+    "started_at": "2026-11-19T23:11:16Z",
+    "completed_at": "2026-11-19T23:11:18Z"
+   },
+   {
+    "name": "Set up runner",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 2,
+    "started_at": "2026-11-19T23:11:18Z",
+    "completed_at": "2026-11-19T23:11:18Z"
+   },
+   {
+    "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 3,
+    "started_at": "2026-11-19T23:11:18Z",
+    "completed_at": "2026-11-19T23:11:20Z"
+   },
+   {
+    "name": "Run ./.github/actions/pnpm-setup",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 4,
+    "started_at": "2026-11-19T23:11:20Z",
+    "completed_at": "2026-11-19T23:11:28Z"
+   },
+   {
+    "name": "Download Keycloak server",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 5,
+    "started_at": "2026-11-19T23:11:28Z",
+    "completed_at": "2026-11-19T23:11:32Z"
+   },
+   {
+    "name": "Setup Java",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 6,
+    "started_at": "2026-11-19T23:11:32Z",
+    "completed_at": "2026-11-19T23:11:33Z"
+   },
+   {
+    "name": "Start Keycloak server",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 7,
+    "started_at": "2026-11-19T23:11:33Z",
+    "completed_at": "2026-11-19T23:11:34Z"
+   },
+   {
+    "name": "Run ./.github/actions/playwright-setup",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 8,
+    "started_at": "2026-11-19T23:11:34Z",
+    "completed_at": "2026-11-19T23:11:49Z"
+   },
+   {
+    "name": "Wait for Keycloak server to start",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 9,
+    "started_at": "2026-11-19T23:11:49Z",
+    "completed_at": "2026-11-19T23:11:50Z"
+   },
+   {
+    "name": "Build the admin client",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 10,
+    "started_at": "2026-11-19T23:11:50Z",
+    "completed_at": "2026-11-19T23:11:55Z"
+   },
+   {
+    "name": "Run Playwright tests on Boba",
+    "status": "completed",
+    "conclusion": "skipped",
+    "number": 11,
+    "started_at": "2026-11-19T23:11:55Z",
+    "completed_at": "2026-11-19T23:11:55Z"
+   },
+   {
+    "name": "Run Playwright tests",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 12,
+    "started_at": "2026-11-19T23:11:55Z",
+    "completed_at": "2026-11-19T23:26:54Z"
+   },
+   {
+    "name": "Summarize Playwright results",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 13,
+    "started_at": "2026-11-19T23:26:54Z",
+    "completed_at": "2026-11-19T23:26:54Z"
+   },
+   {
+    "name": "Upload Playwright results",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 14,
+    "started_at": "2026-11-19T23:26:54Z",
+    "completed_at": "2026-11-19T23:26:56Z"
+   },
+   {
+    "name": "Upload Playwright report",
+    "status": "completed",
+    "conclusion": "skipped",
+    "number": 15,
+    "started_at": "2026-11-19T23:26:56Z",
+    "completed_at": "2026-11-19T23:26:56Z"
+   },
+   {
+    "name": "Upload server logs",
+    "status": "completed",
+    "conclusion": "skipped",
+    "number": 16,
+    "started_at": "2026-11-19T23:26:56Z",
+    "completed_at": "2026-11-19T23:26:56Z"
+   },
+   {
+    "name": "Post Setup Java",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 29,
+    "started_at": "2026-11-19T23:26:56Z",
+    "completed_at": "2026-11-19T23:26:56Z"
+   },
+   {
+    "name": "Post Run ./.github/actions/pnpm-setup",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 30,
+    "started_at": "2026-11-19T23:26:56Z",
+    "completed_at": "2026-11-19T23:26:57Z"
+   },
+   {
+    "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 31,
+    "started_at": "2026-11-19T23:26:57Z",
+    "completed_at": "2026-11-19T23:26:57Z"
+   },
+   {
+    "name": "Complete runner",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 32,
+    "started_at": "2026-11-19T23:26:57Z",
+    "completed_at": "2026-11-19T23:26:57Z"
+   },
+   {
+    "name": "Complete job",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 33,
+    "started_at": "2026-11-19T23:26:57Z",
+    "completed_at": "2026-11-19T23:26:57Z"
+   }
+  ]
+ }
+]
