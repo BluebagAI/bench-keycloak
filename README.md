@@ -1,3 +1,5 @@
+> **Benchmark copy.** This repository is an unmodified copy of [keycloak/keycloak](https://github.com/keycloak/keycloak) at commit [`994ee7efe86b6cd20e0926ee218f452148ec073a`](https://github.com/keycloak/keycloak/commit/994ee7efe86b6cd20e0926ee218f452148ec073a), used to benchmark CI runners on the project's own Playwright suite. It is not affiliated with or endorsed by the project. The only changes: this note, `.github/workflows/bench.yml` (run by hand only), and the project's other GitHub Actions workflows and Dependabot config removed so nothing runs on its own. The project's license applies (see the license file). Each benchmark run's logs and test results are saved on the [`bench-results`](../../tree/bench-results) branch.
+
 ![Keycloak](https://github.com/keycloak/keycloak-misc/blob/main/logo/logo.svg)
 
 ![GitHub Release](https://img.shields.io/github/v/release/keycloak/keycloak?label=latest%20release)
