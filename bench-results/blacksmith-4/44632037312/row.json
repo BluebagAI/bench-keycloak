@@ -1,0 +1,31 @@
+{
+ "at": "2026-11-19T23:07:38+00:00",
+ "suite": "keycloak",
+ "repo": "BluebagAI/bench-keycloak",
+ "runner": "blacksmith-4",
+ "shards": "1",
+ "note": "measured",
+ "run": "https://github.com/BluebagAI/bench-keycloak/actions/runs/44632037312",
+ "run_id": 44632037312,
+ "sha": "bf6e41d7a0c8859ebe42ccdc422463a1803c5a4a",
+ "conclusion": "failure",
+ "wall_s": 1126,
+ "queue_s": 12,
+ "job_s": 1507,
+ "jobs": 3,
+ "job_max_s": 872,
+ "vcpu_min": 100.5,
+ "billed_min": 27,
+ "usd": 0.216,
+ "tests": {
+  "passed": 987,
+  "failed": 0,
+  "flaky": 1,
+  "skipped": 8,
+  "failed_tests": [],
+  "flaky_tests": [
+   "clients/role.spec.ts::should update client role description::chromium"
+  ],
+  "files": 2
+ }
+}
