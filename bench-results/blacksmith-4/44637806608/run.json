@@ -1,0 +1,13 @@
+{
+ "id": 44637806608,
+ "html_url": "https://github.com/BluebagAI/bench-keycloak/actions/runs/44637806608",
+ "head_sha": "bf6e41d7a0c8859ebe42ccdc422463a1803c5a4a",
+ "head_branch": "main",
+ "event": "workflow_dispatch",
+ "status": "completed",
+ "conclusion": "success",
+ "created_at": "2026-11-19T23:27:28Z",
+ "updated_at": "2026-11-19T23:43:51Z",
+ "run_started_at": "2026-11-19T23:27:28Z",
+ "run_attempt": 1
+}
